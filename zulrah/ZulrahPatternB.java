@@ -16,7 +16,7 @@ public class ZulrahPatternB extends ZulrahPattern
 		add(ZulrahLocation.SOUTH, ZulrahType.MAGIC, StandLocation.PILLAR_WEST_INSIDE, Prayer.PROTECT_FROM_MAGIC); // optional phase
 		add(ZulrahLocation.NORTH, ZulrahType.MELEE, StandLocation.PILLAR_WEST_INSIDE, null);
 		add(ZulrahLocation.EAST, ZulrahType.RANGE, StandLocation.SOUTH, Prayer.PROTECT_FROM_MISSILES);
-		add(ZulrahLocation.SOUTH, ZulrahType.MAGIC, StandLocation.TOP_WEST, Prayer.PROTECT_FROM_MAGIC);
+		add(ZulrahLocation.SOUTH, ZulrahType.MAGIC, StandLocation.PILLAR_WEST_OUTSIDE, Prayer.PROTECT_FROM_MAGIC);
 		addJad(ZulrahLocation.WEST, ZulrahType.RANGE, StandLocation.TOP_WEST, Prayer.PROTECT_FROM_MISSILES);
 		add(ZulrahLocation.NORTH, ZulrahType.MELEE, StandLocation.TOP_WEST, null);
 	}
